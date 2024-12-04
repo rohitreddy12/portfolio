@@ -1,0 +1,18 @@
+/* .active{
+  color:white;
+  border: 1px solid white ;
+  background-color: black;
+  border-radius:60%;
+} */
+
+.active{
+    text-decoration: underline rebeccapurple;
+    text-underline-offset: 5px;
+    color: rebeccapurple;
+    /* text-shadow: 1px 1px rebeccapurple; */
+}
+
+#navbarItem:hover{
+    color:rebeccapurple
+}
+

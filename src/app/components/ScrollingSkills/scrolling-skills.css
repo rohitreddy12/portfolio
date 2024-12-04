@@ -1,0 +1,33 @@
+.scrolling-container {
+    overflow: hidden; 
+    white-space: nowrap; 
+    width: 100%;
+    background: #f3f3f3;
+    border-radius: 10px;
+  }
+  
+
+  .scrolling-wrapper {
+    display: inline-flex; 
+    animation: scrolling-effect 20s linear infinite; 
+  }
+  
+
+  .scrolling-item {
+    display: inline-block; 
+    padding: 15px 30px;
+    font-size: 24px;
+    width: 200px;
+    height: 100px;
+  }
+  
+  
+  @keyframes scrolling-effect {
+    0% {
+      transform: translateX(0%); 
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

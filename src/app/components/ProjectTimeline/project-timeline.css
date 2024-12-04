@@ -1,0 +1,25 @@
+.project-timeline{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-timeline-bar{
+    width: 1px;
+    border-color: black;
+    border-right: 1px solid ;
+}
+
+.project-image:hover{
+   
+}
+
+.project-title{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.25rem;
+    /* margin-bottom: 1.25rem; */
+}
+
+.pr0ject-desc{
+    /* margin-top: 1.25rem; */
+}
