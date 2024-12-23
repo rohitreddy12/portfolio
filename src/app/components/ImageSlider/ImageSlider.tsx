@@ -62,11 +62,12 @@ function ImageSlider(props:Props) {
         <button onClick={handlePrevImage}><PiCaretCircleLeftLight size={40} className='absolute top-[50%] left-0 z-50' /></button>
         {
             imgArray.map((image,index) => 
-                <motion.div style={{
+                <motion.div key={index} style={{
                     zIndex: zIndex[length-index-1],
                     transform: `rotate(${transform[length - index - 1]}deg) `,
                     opacity: opacity[length - index - 1]
-                }} className={`absolute top-0 ` }>{image}</motion.div>
+                }} className={`absolute top-0 ` }>{image}
+                </motion.div>
             )
         }
         <button onClick={handleNextImage}><PiCaretCircleRightLight size={40} className='absolute top-[50%] right-0 z-50'/></button>
