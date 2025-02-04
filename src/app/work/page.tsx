@@ -18,7 +18,7 @@ export default function Work() {
   return (
     <div className="p-4">
       <section className="work-intro text-center text-xl mt-3 ">
-        <p>Let's take a peek at the frontend projects I tackled during my
+        <p>Let&#39;s take a peek at the frontend projects I tackled during my
         internship &#128187;.</p> 
         <p>These are the creations that brought my code to
         life &#127775;.</p>

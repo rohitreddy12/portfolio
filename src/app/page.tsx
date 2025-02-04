@@ -22,7 +22,7 @@ export default function Home() {
             Showcasing my skills and projects.
           </h1>
           <p className={`${pt_serif.className} md:text-lg  lg:text-xl`}>
-            Let's dive into what I have done through my internship.{" "}
+            Let&#39;s dive into what I have done through my internship.
           </p>
         </div>
         <div className=" bg-image relative top-0 w-[100%] h-[28rem]">
